@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | PHP Motors</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="header-container">
+                <a href="index.html"><img src="images/phpmotors-logo.png" alt="PHP Motors Logo" id="logo"></a>
+                <div class="account">
+                    <a href="account.html">My Account</a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classics.html">Classics</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="suvs.html">SUVs</a></li>
+                <li><a href="trucks.html">Trucks</a></li>
+                <li><a href="used.html">Used</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Contact PHP Motors</h1>
+            
+            <section class="contact-wrapper">
+                <div class="contact-info card">
+                    <h2>Get In Touch</h2>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                            <p>Monday - Friday: 8:00 AM - 7:00 PM</p>
+                            <p>Saturday: 9:00 AM - 5:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@phpmotors.com</p>
+                            <p>sales@phpmotors.com</p>
+                            <p>support@phpmotors.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>PHP Motors Headquarters</p>
+                            <p>123 Coding Blvd</p>
+                            <p>Serverside, CA 90210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">🌐</div>
+                        <div>
+                            <h3>Social Media</h3>
+                            <p>Follow us on social media for updates, promotions, and more!</p>
+                            <div class="social-links">
+                                <a href="#">Facebook</a> | 
+                                <a href="#">Twitter</a> | 
+                                <a href="#">Instagram</a> | 
+                                <a href="#">YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="">Please select a subject</option>
+                                <option value="sales">Sales Inquiry</option>
+                                <option value="service">Service Question</option>
+                                <option value="parts">Parts Availability</option>
+                                <option value="test-drive">Schedule Test Drive</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+            
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7071000718556!2d-118.24149672427141!3d34.05298787326315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c648fa1d4803%3A0xb0ed12c4920f9308!2s123%20S%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090012!5e0!3m2!1sen!2sus!4v1620856711194!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; PHP Motors, All rights reserved.</p>
+            <p>All images used are believed to be in "Fair Use". Please notify the author if any are not and they will be removed.</p>
+            <p>Last Updated: <span id="last-updated">8 May 2025</span></p>
+        </footer>
+    </div>
+</body>
+</html>
